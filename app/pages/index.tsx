@@ -33,6 +33,6 @@ const Home: BlitzPage = () => {
 
 Home.suppressFirstRenderFlicker = true
 Home.getLayout = (page) => <Layout title="Home">{page}</Layout>
-Home.authenticate = true
+Home.authenticate = false
 
 export default Home
