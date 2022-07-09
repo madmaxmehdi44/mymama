@@ -21,10 +21,10 @@ const UserInfo = () => {
 const Home: BlitzPage = () => {
   return (
     <>
-      <Suspense fallback="Loading Uxsser Info...">
+      {/*  <Suspense fallback="Loading Uxsser Info..."> */}
         {/* <UserInfo /> */}
-      </Suspense>
-      <div className="flex justify-center">
+      {/* </Suspense> */} 
+      <div className="flex justify-center bg-orange-700 text-white w-screen">
         Hello World
         {/* <CustomLink href="/projects">Manage Projects</CustomLink> */}
       </div>
