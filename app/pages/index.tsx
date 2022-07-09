@@ -21,7 +21,7 @@ const UserInfo = () => {
 const Home: BlitzPage = () => {
   return (
     <>
-      <Suspense fallback="Loading Uxser Info...">
+      <Suspense fallback="Loading Uxsser Info...">
         <UserInfo />
       </Suspense>
       <div className="flex justify-center">
