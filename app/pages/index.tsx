@@ -3,7 +3,7 @@ import { Image, Link, BlitzPage, useMutation, Routes } from "blitz"
 import Layout from "app/core/layouts/Layout"
 import { useCurrentUser } from "app/core/hooks/useCurrentUser"
 import logout from "app/auth/mutations/logout"
-import logo from "public/logo.png"
+// import logo from "public/logo.png"
 import { CustomLink } from "app/core/components/CustomLink"
 
 /*
@@ -25,7 +25,7 @@ const Home: BlitzPage = () => {
         <UserInfo />
       </Suspense>
       <div className="flex justify-center">
-        <CustomLink href="/projectss">Manage Projects</CustomLink>
+        <CustomLink href="/projects">Manage Projects</CustomLink>
       </div>
     </>
   )
