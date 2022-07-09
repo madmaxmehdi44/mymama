@@ -25,7 +25,7 @@ const Home: BlitzPage = () => {
         <UserInfo />
       </Suspense>
       <div className="flex justify-center">
-        <CustomLink href="/projects">Manage Projects</CustomLink>
+        {/* <CustomLink href="/projects">Manage Projects</CustomLink> */}
       </div>
     </>
   )
